@@ -1,0 +1,23 @@
+﻿http://yohshiy.blog.fc2.com/blog-entry-326.html
+
+
+GitHub Desktop のダウンロードとインストール(Windows)
+https://desktop.github.com/
+にてgithubのをダウンロード
+
+githubのサイトにて新しいリポジトリを作成する　repositories　でnewをクリック
+「Start a project」ボタンをクリック
+要な情報を入力したら「Create repository」ボタンをクリックしてリポジトリを作成しよう。
+
+
+clone or download　ボタンをおしてパソコンのほうにフォルダをコピーしてもらい作成
+
+https://ferret-plus.com/8498
+ローカルから新しくリポジトリを作成し、フォルダにデータをいれる
+※ドキュメントのgithubのフォルダ
+
+
+
+デスクトップのほうでクローンリポジトリをチェック
+すると表示されるのでプッシュ
+
