@@ -1,0 +1,35 @@
+<img src="img/example-img.jpg"
+     srcset="img/example-img-320.jpg 320w,
+             img/example-img-640.jpg 640w" >
+'w' 記述子を使用している場合に src 属性を無視します。
+
+
+<img src="img/example-img.jpg"
+     srcset="img/example-img.jpg 1x,
+             img/example-img@2x.jpg 2x"
+     alt="Example image">
+通常のデバイスならexample-img.jpgが、Retinaディスプレイではexample-img@2x.jpgが読み込まれます。このとき、srcの画像は読み込まれません。
+
+
+<img src="hoge.jpg" 　　　　　　　//1000
+     srcset="hoge@2x.jpg 2x, 　　//2000 
+             sample_s.jpg 320w, //320以下
+             hoge@2x.jpg 320w 2x" //320以下
+ />
+
+<picture>
+  <source media="(min-width: 768px)" srcset="images/picture_l.gif">
+  <source media="(min-width: 321px)" srcset="images/picture_m.gif">
+  <img src="images/picture_s.gif" alt="IAキャラクター">
+</picture>
+今回の例では、media="(max-width: 320px)"と記載をしています。img要素には、デフォルトの画像ファイルを、そして2つのsource要素は、各media属性の値にマッチした条件下で使用される画像のファイルが指定されています。
+ここで注意が必要なのが記述順です。img要素は必ず最後に記載してください。img要素の後に書かれたsource要素はすべて無視されるからです。またブラウザがpicture要素をサポートしていない場合には、自動的にimg要素に指定された画像が表示されることも覚えておいてください。
+
+<picture>
+  <source media="(min-width: 768px)" srcset="images/picture_l.gif,
+            images/picture_l_2x.gif 2x" />
+  <source media="(min-width: 320px)" srcset="images/picture_m.gif,
+            images/picture_m_2x.gif 2x" />
+  <img srcset="images/picture_s.gif,
+         images/picture_s_2x.gif 2x" alt="IAキャラクター" />
+</picture>
