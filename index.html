@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>フリスタ</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/bootstrap-custom.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/guide.css">
+</head>
+<body>
+<header id="anc_header" class="header">
+	<div class="container">
+		<div class="logo"><a href="./"><img src="img/logo.png" alt="フリスタ"></a></div>
+		<div class="tel"><a href="./"><img src="img/tel.png" alt="tel"></a></div>
+		<div class="flee_entry"><a href="./"><i class="fas fa-pencil-alt"></i>無料登録</a></div>
+		<nav class="gnav mt-4">
+			<ul class="row no-gutters">
+				<li class="col"><a href="#1">フリスタの強み</a></li>
+				<li class="col"><a href="#2">ご利用の流れ</a></li>
+				<li class="col"><a href="#3">メリット</a></li>
+				<li class="col"><a href="#3">案件紹介</a></li>
+				<li class="col"><a href="＃4">ご相談</a></li>
+				<li class="col"><a href="＃5">会社概要</a></li>
+				<li class="col"><a href="sample_01.html">無料登録</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<main>
+<section class="top-mainvisual">
+<p>サブタイトルサブタイトルサブタイトル</p>
+<h1>フリーランスへ転向なら<br>
+フリスタにお任せください！</h1>
+</section>
+
+<section class="top-point">
+<ul>
+	<li>豊富な案件数、<br>
+高報酬還元</li>
+	<li></li>
+	<li></li>
+</ul>
+</section>
+
+
+
+<article class="container guide">
+<div class="text-center"><h1>概要</h1></div>
+
+<h2>とりあえずコーディングテンプレートをダウンロード</h2>
+<p class="mt-5 text-center"><a href="sample.zip" class="downloadZip"><i class="fa fa-download"></i>テンプレートをダウンロード（zip）</a></p>
+
+<h2>本コーディングサンプルの基本的な要件定義</h2>
+<p>レスポンシブデザインを想定しています。DOCTYPE宣言はHTML5。<br>
+Bootstrap4のグリッドシステムを軽量化した独自フレームワークを採用しています。<br>
+
+<div class="row">
+	<div class="col">
+		<h3>標準対応ブラウザ（PC）</h3>
+		<ul>
+			<li>Internet Explorer 11</li>
+			<li>Microsoft Edge最新版</li>
+			<li>Google Chrome最新版</li>
+			<li>FireFox最新版</li>
+		</ul>
+	</div>
+	<div class="col">
+		<h3>標準対応ブラウザ（Mobile）</h3>
+		<ul>
+			<li>iOS 最新版の Mobile Safari</li>
+			<li>AndroidOS 最新版の ブラウザ</li>
+		</ul>
+	</div>
+	<div class="col">
+		<h3>標準対応ブラウザ（tablet）</h3>
+		<ul>
+			<li>規定のデバイスなし<br><small>※ChromeのDeveloper Toolで確認</small></li>
+		</ul>
+	</div>
+</div>
+<p>CSS3のブラウザ対応状況は<a href="https://caniuse.com/" target="_blank">Can I Use</a>で確認してください。</p>
+
+<h2>心構え</h2>
+<p><strong>運用のしやすさ</strong>を考えてコーディングして下さい。Webサイトは作って終わりではありません。ありがちなのが「1行だと綺麗なのに2行にしたら崩れる」なんてケースですが、これは運用のことを考えられていません。文字は差し替わることもあれば長くなることもあります。もちろん、固定で文字数を決めないと成立しないデザインもあるので、「すべてを考慮しろ」なんて無茶振りはしませんが、気を利かせてコーディングしましょうという心構えの話です。</p>
+
+<h2>ディレクトリ構造</h2>
+<p>一部SASSを導入していますが、とりあえず使う分には理解していなくても大丈夫です。<br>
+グレー背景のファイルはサンプルには入っていませんが、実際のサイト制作において必要となるため、設置場所の確認のために記載しています。</p>
+<ul class="finder">
+	<li class="folder">site root
+		<ul>
+			<li class="html">index.html</li>
+			<li class="html notSample">404.html<p class="note">エラーページはマストではありませんが、作ってあると良心的です。</p></li>
+			<li class="html notSample">403.html<p class="note">同上</p></li>
+			<li class="html notSample">500.html<p class="note">同上</p></li>
+			<li class="html notSample">.htaccess<p class="note">URL正規化を実施しましょう。「.htaccess」が使えるかどうかを事前に確認してください。</p></li>
+			<li class="html notSample">sitemap.xml<p class="note">SearchConsoleへのアップを忘れずに。</p></li>
+			<li class="html notSample">robots.txt<p class="note">必要に応じて設置してください。</p></li>
+			<li class="img notSample">favicon.ico<p class="note">忘れずに設置しましょう。</p></li>
+			<li class="folder">img
+				<ul>
+					<li class="img">xxxx.png<p class="note">透過の場合は必然的にPNG。透過でない場合は図版などに使用する形式。</p></li>
+					<li class="img">xxxx.jpg<p class="note">写真はJPG。</p></li>
+					<li class="img">xxxx.gif<p class="note">文字色が極端に少ない場合や小さな画像に使います。</p></li>
+				</ul>
+			</li>
+			<li class="folder">css
+				<ul>
+					<li class="css">bootstrap-custom.min.css<p class="note">読込はマスト。原則編集しない。</p></li>
+					<li class="css">common.css<p class="note">読込はマスト。デフォルトのフォントサイズやヘッダ・フッタなどサイト共通のスタイル。</p></li>
+					<li class="css">top.css<p class="note">TOPページだけに使うスタイル。</p></li>
+				</ul>
+			</li>
+			<li class="folder">js
+				<ul>
+					<li class="js">xxxx.js</li>
+				</ul>
+			</li>
+			<li class="folder">fonts
+				<ul>
+					<li class="font">xxxx.otf<p class="note">ウェブフォントを使う場合はまとめて<code>/fonts/</code>に格納。</p></li>
+				</ul>
+			</li>
+			<li class="folder">scss
+				<ul>
+					<li class="scss">_custom.scss</li>
+					<li class="scss">_grid.scss</li>
+					<li class="scss">_multiclass.scss</li>
+					<li class="scss">_normalize.scss</li>
+					<li class="scss">_reboot.scss</li>
+					<li class="scss">_variables.scss</li>
+					<li class="scss">bootstrap-custom.min.scss</li>
+					<li class="scss">common.scss</li>
+					<li class="scss">top.scss</li>
+					<li class="folder">mixins
+						<ul>
+							<li class="scss">_breakpoints.scss</li>
+							<li class="scss">_clearfix.scss</li>
+							<li class="scss">_grid.scss</li>
+							<li class="scss">_grid-framework.scss</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="folder notSample">inc<p class="note">SSIインクルードファイル。わかりやすい名前をつけてください。</p>
+				<ul>
+					<li class="html">meta.html</li>
+					<li class="html">header.html</li>
+					<li class="html">footer.html</li>
+				</ul>
+			</li>
+			<li class="folder notSample">xxxx<p class="note">任意のフォルダ。下層のテンプレを作る場合はフォルダ名を<code>template</code>にしてください。</p>
+				<ul>
+					<li class="html">index.html</li>
+					<li class="html">xxxx.html</li>
+					<li class="folder">css
+						<ul>
+							<li class="css">page.css</li>
+						</ul>
+					</li>
+					<li class="folder">js
+						<ul>
+							<li class="js">page.js</li>
+						</ul>
+					</li>
+					<li class="folder">img
+						<ul>
+							<li class="img">xxxx.jpg</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<h2>命名規則</h2>
+<h3>画像</h3>
+<p>あまり細かいルールはなくて、わかりやすければそれでいいです。</p>
+<pre><code>bg_xxxx.png	背景
+ico_xxxx.png	アイコン
+logo_xxxx.png	ロゴ
+</code></pre>
+<p>基本的にはモジュールのclass名に合わせてあげると良いですね。たとえばフッターで使ってる画像なら<code>footer_xxxx.jpg</code>にするなど。<br>
+連番は避け、できるだけユニークなファイル名にしてください。運用フェーズでは画像が増えたり減ったりすることは日常茶飯事です。</p>
+
+<h2>便利なプラグイン</h2>
+<ul>
+	<li><a href="http://fontawesome.io/" target="_blank">Font Awesome</a><br>
+	言わずと知れた便利なアイコンフォント。デフォで入れといてください。</li>
+	<li><a href="http://fontello.com/" target="_blank">Fontello</a><br>
+	Font Awesomeで足りなくなったらコレ。必要なアイコンだけに絞ることができるので軽量です。自分で作ったアイコンフォントも追加できます。</li>
+	<li><a href="http://idangero.us/swiper/#.WPWnF2nyjmE" target="_blank">Swiper</a><br>
+	レスポンシブ対応でjQueryに依存しない多機能スライダー</li>
+</ul>
+
+<h2>アップデート</h2>
+<dl class="news">
+	<dt>2017/11/08</dt><dd>「Flexbox」を採用したBootstrap4へアップデート。マルチクラスをオリジナルのものからBootstrap標準に変更。</dd>
+	<dt>2017/04/21</dt><dd>心構えと命名規則追加。ディレクトリ構造にも追記。</dd>
+	<dt>2017/04/18</dt><dd>CSS追加</dd>
+	<dt>2017/04/17</dt><dd>公開</dd>
+</dl>
+</article>
+</main>
+
+<footer class="footer">
+	<div class="container">
+		<div class="text-center"><a href="#anc_header">トップに戻る</a></div>
+		<!-- <ul class="footer-nav">
+			<li class="dIB"><a href="">footer-link</a></li>
+			<li class="dIB"><a href="">footer-link</a></li>
+			<li class="dIB"><a href="">footer-link</a></li>
+			<li class="dIB"><a href="">footer-link</a></li>
+		</ul> -->
+		<div class="copyright"><small>© Minds inc.</small></div>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

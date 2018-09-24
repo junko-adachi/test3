@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.table {  width: 100%}
+.table td,.table th {  border: 1px solid #ccc;padding: .5em}
+.table th {  background: #eee;text-align: center}
+.guide h1 {  border-bottom: 3px double #aaa;display: inline-block;font-size: 20px;margin-top: 80px;margin-bottom: 1rem;padding: 1em;text-align: center}
+.guide h2 {  border-left: 3px double #aaa;font-size: 18px;margin-top: 60px;margin-bottom: 1rem;padding-left: .8em}
+.guide h3 {  margin-top: 30px;margin-bottom: 1rem}
+.guide a[target='_blank'] {  margin-right: .4em;margin-left: .4em}
+.guide a[target='_blank']::after {  content: '\f08e';font-family: FontAwesome;font-size: .9em;padding-left: .5em}
+.guide ul {  margin-bottom: 1rem}
+.guide li {  padding-left: 1em;text-indent: -1em}
+.guide li::before {  content: '・'}
+.guide code {  background: #eee;margin-left: .2em;margin-right: .2em;padding: .1em .4em}
+.guide pre code {  background: inherit;margin-left: 0;margin-right: 0;padding: 0}
+.guide pre {  background: #263238;color: #b2ccd6;padding: 1em;position: relative}
+.guide pre.NG,.guide pre.OK {  padding: 1em 1em 1em 5em}
+.guide pre.NG::before,.guide pre.OK::before {  content: 'NG';color: #fff;background: #d32f2f;padding: .2em 0;position: absolute;top: 0;left: 0;width: 60px;text-align: center}
+.guide pre.OK::before {  content: 'OK';background: #4caf50}
+.guide .table {  margin-bottom: 1rem}
+.guide .table span {  display: block;font-size: 14px}
+.news dd,.news dt {  border-bottom: 1px solid #ccc;margin-bottom: .5em;padding-bottom: .5em;padding-right: 1em}
+.news dt {  display: inline-block;float: left;font-weight: 400;padding-left: 1em}
+.keyword {  border: 1px solid #ccc;margin-top: 1.5rem;margin-bottom: 1.5rem;padding: 2rem 2rem 1rem;position: relative}
+.keyword dt {  background: #fff;padding: 0 .5em;position: absolute;top: -1em}
+.keyword dd {  margin-bottom: 0}
+.finder li::before {  content: '\f016';margin-right: .5em;font-family: FontAwesome}
+.finder li.css::before,.finder li.html::before,.finder li.js::before,.finder li.scss::before {  content: '\f1c9'}
+.finder li.folder::before {  content: '\f114'}
+.finder li.img::before {  content: '\f1c5'}
+.finder li.font::before,.finder li.txt::before {  content: '\f0f6'}
+.finder ul {  margin-left: 4em;margin-bottom: 0}
+.finder .notSample {  background: #eee}
+.finder .note {  display: inline-block;margin-left: 2em;margin-bottom: 0}
+.sampleGrid {  border: 1px solid #ccc;margin-bottom: 1rem;padding: 20px 35px}
+.sampleGrid [class^=col] {  border: 1px solid #aaa;background: #eee;display: block;text-align: center}
+.downloadZip {  background: #004ea2;border-radius: 2em;color: #fff;padding: .8em 2em}
+.downloadZip:hover {  opacity: .8;text-decoration: none}
+.downloadZip i {  margin-right: .5em}
+/*# sourceMappingURL=../css/guide.css.map */
